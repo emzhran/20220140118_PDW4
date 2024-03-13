@@ -1,0 +1,116 @@
+/* command dibawah berfungsi untuk mengimpor font Popins dari google ke halaman web */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* fungsi command dibawah adalah untuk mengatur semua elemen yang ada pada halaman web */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box ,.card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    flex-direction: column;
+}
+.box{
+    flex-direction: row;
+}
+
+/* command dibawah berfungsi untuk mengatur tata letak dan gaya dari elemen-elemen pada kelas container */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 10px;
+    background-image: url(https://images.unsplash.com/photo-1563333576-c5c1ccec85fd?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+/* command dibawah berfungsi untuk mengatur warna background dan tata letak dari elemen-elemen pada kelas login-text */
+.login-text{
+    background-color: white;
+    max-width: 400px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 70px 90px;
+}
+
+
+.logo{
+    margin-bottom: 20px;
+}
+.logo span , .logo span i{
+    font-size: 25px;
+    color:rgb(75, 9, 133);
+}
+
+.login-text h1{
+    font-size: 25px;
+}
+.login-text p{
+    font-size: 15px;
+    color: black;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dan tata letak dari kelas form */
+form{
+    align-items: flex-start !important;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-box{
+    margin: 5px 1px;
+    width: 100%;
+}
+
+.label{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.input{
+    background-color: #F6F6F6;
+    padding: 10px 5px;
+    border: 2px solid rgba(216, 216, 216, 1);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    background-color: #F6F6F6;
+    flex: 1;
+}
+.input i{
+    color:rgba(0, 0, 0, 0.4);
+}
+
+.btn{
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: linear-gradient(#54a5b7, #46066e);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s linear;
+}
+
+.btn:hover{
+    transform: translateY(-2px);
+}
+
+.tgl p{
+    margin-top: 10px;
+    font-size: 10px;
+}

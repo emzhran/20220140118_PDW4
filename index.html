@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- command dibawah berfungsi untuk menghubungkan file css yang berada di folder style ke file html -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <!-- command dibawah berfungsi untuk memuat stylesheet dari font Awesome, yang nantinya kita akan dapat menggunakan
+    ikon-ikon dari Font Awesome pada halaman web  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- command dibawah berfungsi untuk memberikan judul pada halaman web -->
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <!-- command dibawah berfungsi untuk membuat class -->
+    <div class=" box container">
+        <div class="box login-wrapper">
+            <div class="login-text">
+
+                <!-- command dibawah berfungsi untuk menampilkan logo, nama, dan deskripsi -->
+                <div class="logo">
+                    <span><i class="fab fa-erlang"></i></span>
+                    <span>mzhran</span>
+                    <p>Tours</p>
+                </div>
+
+                <!-- command dibawah berfungsi untuk memberi judul utama pada halaman web -->
+                <h1>Login Akun</h1>
+
+                <form class="card">
+                    <div class="input-box">
+                        <span class="label">Email</span>
+                        <div class=" box input">
+                            <input type="text" placeholder="Masukkan Email">
+                            <i class="fas fa-at"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="label">Kata Sandi</span>
+                        <div class="box input">
+                            <input type="password" placeholder="Masukkan Kata Sandi">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                    <!-- command dibawah berfungsi untuk membuat button/tombol yang akan dieksekusi, dan juga akan menampilkan pesan sukses
+                    menggunakan SweetAlret yang sudah dibuat pada JavaScript -->
+                    <input class="btn" type="button" onclick="Submit()" value="Login">
+                    
+                    <!-- command dibawah berisi sebuah paragraph yang mempunyai ID yaitu waktu, paragraph ini nantinya akan diisi dengan informasi
+                    waktu melalui penggunaan JavaScript  -->
+                    <div class="tgl">
+                        <p id="waktu"></p>
+                    </div>
+                    
+                    <div class="instagram-wrapper">
+                        <a href="https://www.instagram.com/Emzhran26_" target="_blank" aria-label="Instagram">
+                            <div class="instagram-icon">
+                                <i class="fab fa-instagram"></i>
+                                <span class="username">Emzhran26_</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- command dibawah berfungsi untuk menghubungkan file javascript yang berada difolder script ke file html -->
+    <script src="./script/main.js"></script>
+
+    <!-- command dibawah berfungsi untuk mengimpor script yang digunakan untuk membuat popup -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+</html>
