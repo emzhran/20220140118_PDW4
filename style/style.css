@@ -9,14 +9,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* command dibawah merupakan selector yang menargetkan semua elemen pada kelas box dan card */
 .box ,.card {
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
+/* command dibawah digunakan untuk mengatur elemen yang ada pada kelas card */
 .card{
     flex-direction: column;
 }
+
+/* command dibawah digunakan untuk mengatur elemen yang ada pada kelas box */
 .box{
     flex-direction: row;
 }
@@ -40,18 +45,23 @@
     padding: 70px 90px;
 }
 
-
+/* command dibawah berfungsi untuk mengatur tata letak dan gaya elemen elemen yang ada pada kelas logo */
 .logo{
     margin-bottom: 20px;
 }
+
+/* command dibawah berfungsi untuk mengatur gaya dari elemen span dan i yang berada pada kelas logo */
 .logo span , .logo span i{
     font-size: 25px;
     color:rgb(75, 9, 133);
 }
 
+/* command dibawah berfungsi untuk mengatur tampilan dari elemen h1 yang berda dalam kelas login-text */
 .login-text h1{
     font-size: 25px;
 }
+
+/* command dibawah berfungsi untuk mengatur tampilan dari elemen p yang berada dalam kelas login-text */
 .login-text p{
     font-size: 15px;
     color: black;
@@ -64,17 +74,20 @@ form{
     margin-top: 15px;
 }
 
+/* command dibawah digunakan untuk mengatur tampilan kotak input */
 .input-box{
     margin: 5px 1px;
     width: 100%;
 }
 
+/* command dibawah digunakan untuk mengatur tampilan label yang ada pada kotak input */
 .label{
     font-size: 15px;
     color: black;
     margin-bottom: 3px;
 }
 
+/* command dibawah digunakan untuk mengatur tampilan tampilan kotak input dan ikon di dalamnya */
 .input{
     background-color: #F6F6F6;
     padding: 10px 5px;
@@ -84,6 +97,7 @@ form{
     justify-content: flex-start;
 }
 
+/* command dibawah merupakan selector yang digunakan untuk mengatur tampilan input di dalam kotak input */
 input{
     border: none;
     outline: none;
@@ -91,10 +105,13 @@ input{
     background-color: #F6F6F6;
     flex: 1;
 }
+
+/* command dibawah digunakan untuk mengatur tampilan ikon di dalam kotak input */
 .input i{
     color:rgba(0, 0, 0, 0.4);
 }
 
+/* command dibawah digunakan untuk mengatur tampilan tombol */
 .btn{
     color: #ffffff;
     border-radius: 30px;
@@ -106,10 +123,12 @@ input{
     transition: all 0.3s linear;
 }
 
+/* command dibawah digunakan ketika pengguna menekan tombol Login, maka tombol Login akan sedikit bergerak ke atas */
 .btn:hover{
     transform: translateY(-2px);
 }
 
+/* command dibawah digunakan untuk mengatur tampilan paragraf dalam kelas tgl */
 .tgl p{
     margin-top: 10px;
     font-size: 10px;
