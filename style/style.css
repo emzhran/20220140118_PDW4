@@ -38,7 +38,7 @@
 
 /* command dibawah berfungsi untuk mengatur warna background dan tata letak dari elemen-elemen pada kelas login-text */
 .login-text{
-    background-color: white;
+    background:linear-gradient(#cfbcce,#4897a8, #aa54c2, #a093e2);
     max-width: 400px;
     min-height: 500px;
     border-radius: 10px;
@@ -111,13 +111,26 @@ input{
     color:rgba(0, 0, 0, 0.4);
 }
 
+.instagram-icon{
+    color: #c00679;
+}
+
+.username{
+    color: #c00679;
+}
+
+.instagram-wrapper p{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
 /* command dibawah digunakan untuk mengatur tampilan tombol */
 .btn{
     color: #ffffff;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 10px 80px;
     background: linear-gradient(#54a5b7, #46066e);
-    margin-top: 30px;
+    margin-top: 18px;
     margin-bottom: 10px;
     font-size: 16px;
     transition: all 0.3s linear;
